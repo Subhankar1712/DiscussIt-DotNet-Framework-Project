@@ -75,3 +75,5 @@ D:\Work\WAD\Forum\DiscussIt\DiscussIt\bin\System.Memory.xml
 D:\Work\WAD\Forum\DiscussIt\DiscussIt\bin\System.Numerics.Vectors.xml
 D:\Work\WAD\Forum\DiscussIt\DiscussIt\bin\System.Runtime.CompilerServices.Unsafe.xml
 D:\Work\WAD\Forum\DiscussIt\DiscussIt\bin\System.Threading.Tasks.Extensions.xml
+D:\project\DiscussIt-DotNet-Framework-Project\DiscussIt\obj\Debug\Discussion_Forum.dll
+D:\project\DiscussIt-DotNet-Framework-Project\DiscussIt\obj\Debug\Discussion_Forum.pdb
