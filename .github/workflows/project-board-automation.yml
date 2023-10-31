@@ -1,0 +1,20 @@
+name: Project Board Automation
+
+on:
+  issues:
+    types:
+      - opened
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  project_board_automation:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Move Issue or PR to Project Board
+      uses: softprops/action-gh-project@v1
+      with:
+        project: "DiscussIt-DotNet-Framework-Project"  # Replace with the name of your project board
+        column: "To do"               # Replace with the name of the column to move issues/PRs to
