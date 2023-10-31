@@ -18,4 +18,4 @@ async function moveIssueToProjectBoard(owner, repo, issueNumber, columnName) {
   }
 }
 
-moveIssueToProjectBoard('your-username', 'your-repo', 1, 'your-column-id');
+moveIssueToProjectBoard('Subhankar', 'your-repo', 1, '234');
