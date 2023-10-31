@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Move Issue or PR to Project Board
-      uses: softprops/action-gh-project@v1
-      with:
-        project: "DiscussIt-DotNet-Framework-Project"  # Replace with the name of your project board
-        column: "To do"               # Replace with the name of the column to move issues/PRs to
+    - name: Check Out Code
+      uses: actions/checkout@v2
+
+    - name: Move Issue to Project Board
+      run: node .github/actions/project-board-automation/move-to-project-board.js
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
